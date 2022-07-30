@@ -44,13 +44,13 @@ nav ul {
 
 nav ul li a {
     margin:30px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color:#505050;
     font-size: 15px;
     font-weight:700;
 }
 nav .logo {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color:#007CFF;
     font-size: 22px;
     font-weight: bold;
@@ -154,7 +154,7 @@ a.hire-btn:hover{
     width: auto;
     height: 50px;
     border-radius: 10px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 15px;
     outline: none;
@@ -174,13 +174,10 @@ a.hire-btn:hover{
 }
 
 .logo-1 img{
-    
     height: 350px;
     bottom: 1px;
     padding: 40px 30px 0 30px;
-
-    animation: key1 .3s ease infinite alternate;
-    
+    /* animation: key1 .3s ease infinite alternate; */
 }
 
 /* text */
@@ -189,7 +186,7 @@ a.hire-btn:hover{
 }
 
 .text-container h2{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #6d6d6d;
     font-size: 22px;
@@ -198,8 +195,8 @@ a.hire-btn:hover{
 
 
 .text-container h1{
-    font-family: Montserrat;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     letter-spacing: 2px;
     color: #007CFF;
     font-size: 60px;
@@ -208,7 +205,7 @@ a.hire-btn:hover{
 
 
 .text-container p{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: #403e3e;
     font-size: 17px;
     margin-top: 10px;
@@ -237,7 +234,7 @@ a.hire-btn:hover{
 }
  
 .services-text p:nth-child(1){
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     color:#ffffff;
     font-size:30px;
@@ -291,7 +288,7 @@ a.hire-btn:hover{
  
 .box p:nth-child(2){
     color:#000000;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 19px;
     line-height:0px;
     padding-top:5px;
@@ -299,7 +296,7 @@ a.hire-btn:hover{
  
 .box p:nth-child(3),
 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color:#8F8F8F;
     text-align:center;
     width: 230px;
@@ -362,7 +359,7 @@ a.hire-btn:hover{
 
 
 .services-text-1{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     color:#000000;
     font-size:30px;
@@ -565,11 +562,11 @@ a.hire-btn:hover{
 
 
 footer p{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer h4 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 14px;
 }
@@ -680,7 +677,7 @@ footer{
     }
 
     .text-container {
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         /* font-weight: bold; */
         letter-spacing: 2px;
         color: #007CFF;
@@ -689,20 +686,20 @@ footer{
     }
 
     .text-container h2{
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         color: #6d6d6d;
         font-size: 22px;
     }
     .text-container h1{
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         letter-spacing: 2px;
         color: #007CFF;
         font-size: 60px;
     }
     .text-container p{
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         color: #403e3e;
         font-size: 17px;
         margin-top: 10px;
