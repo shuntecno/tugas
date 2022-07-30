@@ -219,7 +219,7 @@ button:hover{
     /* margin: 10px 4px; */
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 10px;
+    
 
          
 }
@@ -601,7 +601,8 @@ footer{
     color:#2B2B2B;
 }
 
-@media screen and (max-width: 772px) {
+
+@media screen and (max-width: 1200px) {
     .container{
         display:flex;
         flex-direction: column-reverse;
