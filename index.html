@@ -3,14 +3,11 @@
 
 <head>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
-
-    <title>TIM A10</title>
-
+    <title>TIM_A10 - Kelompok 6 Golang 3 Digitalent </title>
+    <meta name="description" content="TIM A10 - Kelompok 6 Golang 3 Digitalent Kominfo Tahun 2022">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="style.css">
-    <link
-        href="http://fonts.cdnfonts.com/css/montserrat?styles=17402,17397,17405,17406,17395,17396,17398,17399,17400,17401,17403,17404,17391,17392,17393,17394,17389,17390"
-        rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/montserrat?styles=17402,17397,17405,17406,17395,17396,17398,17399,17400,17401,17403,17404,17391,17392,17393,17394,17389,17390" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,16 +15,16 @@
 <header>
     <nav>
         <!--- logo --->
-
         <a href="index.html" class="logo">
-            TIM A10
+            <img src="assets/digitalent.png" width="100px" alt="" srcset="">
         </a>
         <!--- menu --->
         <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#services">Member</a></li>
-            <li><a href="https://digitalent.kominfo.go.id/">DTS</a></li>
-            <li><a href="https://layanan.kominfo.go.id/">Kominfo</a></li>
+            <li><a href="#cta" class="active">Home</a></li>
+            <li><a href="#team">Tim Kami </a></li>
+            <li><a href="#information">Informasi </a></li>
+            <li><a target="_blank" href="https://digitalent.kominfo.go.id/">DTS</a></li>
+            <li><a target="_blank" href="https://layanan.kominfo.go.id/">Kominfo</a></li>
         </ul>
         <div class="menu-toggle">
             <input type="checkbox" />
@@ -38,25 +35,33 @@
     </nav>
 </header>
 <main>
-    <section>
-        <div class="container">
+    <section id="cta" class="pt-100">
+        <div class="container " >
+            
             <div class="text-container">
-                <h2>Hallo,</h2>
+                <h2>Hallo.</h2>
                 <h1>Kami Tim A10</h1>
                 <h2>
-                    Peserta Digital Talent Scholarship : Golang Bacth 3 Kelas 6
+                    Golang Bacth 3 Kelas 6
                 </h2>
                 <p>
-                    Kami merupakan peserta Digital Talent Scholarship 2022
-                    </br>
-                    Kategori Profesional Academy : Golang
+                    Kami merupakan peserta Digital Talent Scholarship 2022 </br> Kategori Profesional Academy : Golang
                 </p>
-                <a href="#member"><button class="hire-btn">Lihat Member</button></a>
-                <a href="https://digitalent.kominfo.go.id/"><button class="down-cv">Daftar DTS</button></a>
+                <div class="mt-60">
+                    <div>
+                    <a href="#team" class="hire-btn">
+                        Lihat Member
+                    </a>
+                    <a href="https://digitalent.kominfo.go.id/" target="_blank" class="down-cv">
+                        Daftar DTS
+                    </a>
+                    </div>
+                </div>
             </div>
 
+
             <div class="logo-1">
-                <img alt="model" class="model" src="assets/digitalent.png">
+                <img alt="model" class="model" src="assets/Scenes05.svg">
             </div>
 
         </div>
@@ -65,7 +70,7 @@
     </section>
 
     <!-- services -->
-    <div class="services">
+    <div class="services" id="team">
         <!--text-->
         <div class="services-text">
             <p>Anggota Kami</p>
@@ -75,47 +80,47 @@
             <!--- 1 --->
             <div class="box">
                 <img src="assets/user.png">
-                <p class="heading">Taofik Krisdiyanto</p>
-                <p class="details">Yogyakarta</p>
+                <p class="heading"><a href="https://github.com/taofikkhris"> Taofik Krisdiyanto  </a> </p>
+                <span class="details">Yogyakarta</span>
             </div>
             <!--- 2 --->
             <div class="box">
                 <img src="assets/user.png">
-                <p class="heading">Syahid Hussein</p>
-                <p class="details">XXXXXX</p>
+                <p class="heading"><a href="https://github.com/shuntecno"> Syahid Hussein </a></p>
+                <span class="details">XXXXXX</span>
             </div>
             <!--- 3 --->
             <div class="box">
                 <img src="assets/user.png">
-                <p class="heading">Robi Kurniawan</p>
-                <p class="details">XXXXXX</p>
+                <p class="heading"><a href="https://github.com/robikurniawan"> Robi Kurniawan </a></p>
+                <span class="details">Makassar</span>
             </div>
             <!--- 4 --->
             <div class="box">
                 <img src="assets/user.png">
-                <p class="heading">Rudino Yusfian</p>
-                <p class="details">XXXXXX</p>
+                <p class="heading"><a href="#"> Rudino Yusfian </a></p>
+                <span class="details">Makassar</span>
             </div>
         </div>
     </div>
 
-    <!--testimonials-->
-    <div class="testimoni">
+    <!--information-->
+    <div class="information pt-100" id="information">
         <div class="services-text-1">
             <p>Informasi DTS</p>
         </div>
 
         <div class=ini-slider>
             <div class=isi-slider>
-                <a><img src="assets/dts1.jpeg" alt="Gambar 1"></a>
-                <a><img src="assets/dts2.jpeg" alt="Gambar 2"></a>
-                <a><img src="assets/dts3.jpeg" alt="Gambar 3"></a>
+                <a><img src="assets/dts1.jpeg"  alt="Gambar 1"></a>
+                <a><img src="assets/dts2.jpeg"  alt="Gambar 2"></a>
+                <a><img src="assets/dts3.jpeg"  alt="Gambar 3"></a>
             </div>
         </div>
     </div>
 </main>
 
-    <footer>
+    <footer class="pt-100">
         <div class="f-1">
             <p>Interested in joining DTS?</p>
         </div>
